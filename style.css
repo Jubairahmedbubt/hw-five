@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* CHESS */
+
+.chessfrem{
+    height: 900px;
+    width: 900px;
+    background-color: rgb(14, 52, 54);
+    /* left: 3%; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.chessbody{
+    height: 800px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    position: relative;
+    top:5%;
+    border:3px solid rgb(36, 18, 18);
+    
+    
+}
+.chessbox1{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+}
+.chessbox2{
+    
+    height: 100px;
+    width: 100px;
+    background-color: #2f5f2fde;
+}
+
+.chessbox3{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+}
+.chessbox4{
+    height: 100px;
+    width: 100px;
+    background-color: #2f5f2fde;
+}
+.chessbox5{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+}
+.chessbox6{
+    
+    height: 100px;
+    width: 100px;
+    background-color: #2f5f2fde;
+}
+
+.chessbox7{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+}
+.chessbox8{
+    height: 100px;
+    width: 100px;
+    background-color: #2f5f2fde;
+}
+
+.column1{
+    display: flex;
+
+}
+.column2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+/* LUDU */
+
+.ludufrem{
+    height: 900px;
+    width: 900px;
+    background-color: rgb(20, 57, 41);
+    margin: 0 auto;
+    position: relative;
+    /* left:0%; */
+}
+
+
+.ludubody{
+    
+    height: 800px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    position: relative;
+    top:5%;
+    border:3px solid rgba(36, 18, 18, 0.527);
+}
+
+
+.ludubox1{
+    height: 310px;
+    width: 310px;
+    background-color: rgba(252, 27, 42, 0.96);
+    position: absolute;
+    top:0%;
+    left:0%;
+}
+.ludubox2{
+    height: 310px;
+    width: 310px;
+    background-color: rgb(252, 227, 0);
+    position: absolute;
+    top:0%;
+    right:0%;
+}
+.ludubox3{
+    height: 310px;
+    width: 310px;
+    background-color: rgba(54, 255, 47, 0.949);
+    position: absolute;
+    bottom: 0%;
+    left:0%;
+}
+.ludubox4{
+    height: 310px;
+    width: 310px;
+    background-color: rgba(17, 9, 255, 0.881);
+    position: absolute;
+    bottom: 0%;
+    right:0%;
+}
+
+
+.luduboxmiddle{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(47, 231, 255);
+    position: absolute;
+    margin: 310px 310px;
+
+}
+
+.white1{
+    height: 190px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:18%;
+    right:20%;
+    border-radius: 10%;
+}
+
+.white2{
+
+    height: 190px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:18%;
+    left:20%;
+    border-radius: 10%;
+}
+
+.white3{
+
+    height: 190px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:20%;
+    left:18%;
+    border-radius: 10%;
+}
+
+.white4{
+
+    height: 190px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:20%;
+    left:20%;
+    border-radius: 10%;
+}
+
+.redguti1{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50px;
+    margin: 30px 0px  0px 30px;
+
+}
+
+.redguti2{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50px;
+    margin: 30px 0px  0px 30px;
+
+}
+
+.redguti3{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50px;
+    margin: -50px 0px  0px 110px;
+
+}
+.redguti4{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50px;
+    margin: -130px 0px  0px 110px;
+
+}
+
+.blueguti1{
+   height: 50px;
+    width: 50px;
+    background-color: rgb(252, 227, 0);
+    border-radius: 50px;
+    margin: 30px 0px  0px 30px; 
+}
+.blueguti2{
+   height: 50px;
+    width: 50px;
+    background-color: rgb(252, 227, 0);
+    border-radius: 50px;
+    margin: 30px 0px  0px 30px; 
+}
+.blueguti3{
+   height: 50px;
+    width: 50px;
+    background-color: rgb(252, 227, 0);
+    border-radius: 50px;
+    margin: -50px 0px  0px 110px;  
+}
+.blueguti4{
+   height: 50px;
+    width: 50px;
+    background-color: rgb(252, 227, 0);
+   border-radius: 50px;
+    margin: -130px 0px  0px 110px;
+}
+
+.greenguti1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(31, 233, 31);
+    border-radius: 50px;
+    margin: 30px 0px  0px 30px;
+}
+
+.greenguti2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(31, 233, 31);
+    border-radius: 50px;
+    margin: 30px 0px  0px 30px;
+}
+
+.greenguti3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(31, 233, 31);
+    border-radius: 50px;
+    margin: -50px 0px  0px 110px;
+}
+.greenguti4{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(31, 233, 31);
+     border-radius: 50px;
+    margin: -130px 0px  0px 110px;
+}
+
+.yellowguti1{
+   height: 50px;
+    width: 50px;
+    background-color: rgba(17, 9, 255, 0.881);
+    border-radius: 50px;
+    margin: 30px 0px  0px 30px; 
+}
+.yellowguti2{
+   height: 50px;
+    width: 50px;
+    background-color: rgba(17, 9, 255, 0.881);
+    border-radius: 50px;
+    margin: 30px 0px  0px 30px; 
+}
+.yellowguti3{
+   height: 50px;
+    width: 50px;
+    background-color: rgba(17, 9, 255, 0.881);
+    border-radius: 50px;
+    margin: -50px 0px  0px 110px; 
+}
+.yellowguti4{
+   height: 50px;
+    width: 50px;
+    background-color: rgba(17, 9, 255, 0.881);
+    border-radius: 50px;
+    margin: -130px 0px  0px 110px; 
+}
+
+.leftangle{
+    height: 180px;
+    width: 180px;
+    background-color: rgba(247, 42, 56, 0.96);
+    clip-path: polygon(0% 0%, 50% 50%, 0% 100%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.topangle{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(252, 227, 0);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 50%);
+    position: absolute;
+    top: 0%;
+    right:0%;
+}
+.rightangle{
+    height: 180px;
+    width:180px;
+    background-color: rgba(17, 9, 255, 0.881);
+    clip-path: polygon(100% 0%, 100% 100%, 50% 50%);
+    position: absolute;
+    top: 0%;
+    right:0%;
+}
+
+.bottomagle{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(31, 233, 31);
+    clip-path: polygon(0% 100%, 100% 100%, 50% 50%);
+    position: absolute;
+    top: 0%;
+    right:0%;
+}
+
+
+.topgrid,
+.bottomgrid {
+    height: 285px;
+    width: 230px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    position: absolute;
+}
+
+
+.leftgrid,
+.rightgrid {
+    height: 230px;
+    width: 285px;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    position: absolute;
+}
+
+
+.topgrid div,
+.bottomgrid div,
+.leftgrid div,
+.rightgrid div {
+    border: 1px solid rgba(0, 0, 0, 0.636);
+    position: relative;
+   
+}
+
+.topgrid {
+    height: 310px;
+    width: 180px;
+    top: 0;
+    left: 310px;
+}
+
+.bottomgrid {
+    height: 310px;
+    width: 180px;
+    bottom: 0;
+    left: 310px;
+}
+
+.leftgrid {
+    height: 180px;
+    width: 310px;
+    top: 311px;
+    left: 0;
+}
+
+.rightgrid {
+    height: 180px;
+    width: 310px;
+    top: 311px;
+    right: 0;
+}
+
+
+
+
+
+
+
+/* PATI */
+
+
+.board {
+    width: 100%;
+    max-width: 1000px;
+    border: 2px solid black;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+}
+
+.box {
+    background-color: rgb(221, 201, 167);
+    aspect-ratio: 1 / 1;
+    border: 1px solid #333;
+}
+
+.row .box:nth-child(7),
+.row .box:nth-child(8),
+.row .box:nth-child(9) {
+    background-color: rgb(245, 130, 22);
+}
+
+.row:nth-child(4) .box,
+.row:nth-child(5) .box,
+.row:nth-child(6) .box {
+    background-color: rgb(245, 130, 22);
+}
+
